@@ -33,7 +33,7 @@ class Server{
 
     listen(){
         this.app.listen(this.port, ()=>{
-            console.log("Servidor conectado")
+            console.log("Servidor conectado en el PORT: "+this.port)
         })
     }
 
